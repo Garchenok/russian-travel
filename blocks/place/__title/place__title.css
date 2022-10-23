@@ -6,4 +6,22 @@
   line-height: 106%;
   margin: 0;
   max-width: 460px;
+  padding: 0;
+}
+
+/*768*/
+@media screen and (max-width: 984px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 110%;
+  }
+}
+
+/*320*/
+@media screen and (max-width: 568px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 109%;
+    padding: 0 16px;
+  }
 }
