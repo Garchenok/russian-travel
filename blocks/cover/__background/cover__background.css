@@ -10,6 +10,8 @@
   background-size: cover;
   background-position: center;
   text-decoration: none;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .cover__background:after {
@@ -21,9 +23,30 @@
   top: 0;
   left: 0;
   opacity: 0.3;
-  transition: opacity 0.3s linear;
+  transition: 0.3s linear;
 }
 
 .cover__background:hover::after {
   opacity: 0.8;
+}
+
+/*1024*/
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+/*768*/
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+/*320*/
+@media screen and (max-width: 568px) {
+  .cover__background {
+    min-height: 200px;
+  }
 }

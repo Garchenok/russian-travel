@@ -2,3 +2,24 @@
   max-width: 1184px;
   margin: 92px auto;
 }
+
+/*1024*/
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+/*768*/
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 90px auto 88px;
+  }
+}
+
+/*320*/
+@media screen and (max-width: 568px) {
+  .cover {
+    margin: 66px auto 64px;
+  }
+}

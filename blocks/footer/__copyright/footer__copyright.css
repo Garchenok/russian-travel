@@ -1,0 +1,18 @@
+.footer__copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+/*320*/
+@media screen and (max-width: 720px) {
+  .footer__copyright {
+    line-height: 100%;
+    margin-left: 16px;
+  }
+}
