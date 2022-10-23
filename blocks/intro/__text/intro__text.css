@@ -7,3 +7,10 @@
   font-style: normal;
   color: #fff;
 }
+
+/*768*/
+@media screen and (max-width: 984px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
