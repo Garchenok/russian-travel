@@ -10,7 +10,6 @@
 /*320*/
 @media screen and (max-width: 720px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
   }
 }
