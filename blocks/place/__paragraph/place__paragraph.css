@@ -8,6 +8,10 @@
   line-height: 163%;
 }
 
+.place__paragraph:last-child {
+  padding-bottom: 0;
+}
+
 /*768*/
 @media screen and (max-width: 984px) {
   .place__paragraph {
