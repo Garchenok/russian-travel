@@ -11,13 +11,6 @@
   }
 }
 
-/*1024*/
-@media screen and (max-width: 1124px) {
-  .photo-grid {
-    width: calc(100% - 2 * 48px);
-  }
-}
-
 /*768*/
 @media screen and (max-width: 996px) {
   .photo-grid {
