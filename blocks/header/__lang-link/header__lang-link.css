@@ -5,4 +5,18 @@
   line-height: 117%;
   font-weight: 400;
   text-decoration: none;
+  text-align: right;
+  transition: 0.3s linear;
+}
+
+.header__lang-link:hover {
+  opacity: 0.5;
+}
+
+/*320*/
+@media screen and (max-width: 568px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+  }
 }

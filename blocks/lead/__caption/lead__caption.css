@@ -11,3 +11,17 @@
   margin: 8px 0 0;
   white-space: nowrap;
 }
+
+/*768*/
+@media screen and (max-width: 984px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+/*320*/
+@media screen and (max-width: 568px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}

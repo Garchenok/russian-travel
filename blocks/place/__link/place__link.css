@@ -6,4 +6,9 @@
   text-decoration-line: underline;
   text-underline-offset: 4px;
   color: #fff;
+  transition: 0.3s linear;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }

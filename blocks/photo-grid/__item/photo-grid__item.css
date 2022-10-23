@@ -9,3 +9,24 @@
   margin: 0;
   padding: 0;
 }
+
+/*1024*/
+@media screen and (max-width: 1124px) {
+  .photo-grid__item {
+    gap: 14 px;
+  }
+}
+
+/*768*/
+@media screen and (max-width: 996px) {
+  .photo-grid__item {
+    gap: 16px;
+  }
+}
+
+/*320*/
+@media screen and (max-width: 568px) {
+  .photo-grid__item {
+    gap: 12px;
+  }
+}

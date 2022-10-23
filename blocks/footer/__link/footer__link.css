@@ -5,7 +5,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 112%;
-  transition: 0.2 linear;
+  transition: 0.2s linear;
 }
 
 .footer__link:hover {
